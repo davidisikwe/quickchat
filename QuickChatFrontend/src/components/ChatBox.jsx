@@ -9,9 +9,24 @@ const ChatBox = ({ fetchAgain, setFetchAgain }) => {
     <div
       className={`${
         selectedChat ? 'flex' : 'hidden'
-      } md:flex items-center flex-col p-3 bg-white w-full md:w-[68%] rounded-lg border`}
+      } md:flex flex-col items-center p-4 bg-white w-full md:w-[68%] rounded-2xl shadow-md border border-gray-200 transition-all duration-300`}
+      style={{
+        height: '90vh',
+        marginTop: '10px',
+        overflow: 'hidden',
+      }}
     >
-      <SingleChat fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
+      <div
+        className="flex flex-col w-full h-full overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 rounded-lg"
+        style={{
+          padding: '10px',
+          backgroundColor: '#f9fafb',
+          borderRadius: '12px',
+          boxShadow: 'inset 0 0 8px rgba(0,0,0,0.05)',
+        }}
+      >
+        <SingleChat fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
+      </div>
     </div>
   );
 };
