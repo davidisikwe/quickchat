@@ -194,6 +194,8 @@
 
 // export default SingleChat;
 
+//-------------------------------------------------------------------------------------------//
+
 import React, { useEffect, useState, useRef } from 'react';
 import { chatState } from '../context/ChatProvider';
 import { Button, Typography, Spin, Form, Input } from 'antd';

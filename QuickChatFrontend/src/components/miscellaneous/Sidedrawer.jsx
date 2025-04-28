@@ -19,6 +19,7 @@ import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import ChatLoading from '../ChatLoading';
 import UserListItem from '../UserAvatar/UserListItem';
+import { getSender } from '../../config/ChatLogic';
 
 const { Text } = Typography;
 
