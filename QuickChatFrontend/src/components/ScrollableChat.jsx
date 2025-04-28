@@ -53,6 +53,8 @@
 
 // export default ScrollableChat;
 
+//--------------------------------------------------------------------------------------//
+
 import React from 'react';
 import { Tooltip, Avatar } from 'antd';
 import ScrollableFeed from 'react-scrollable-feed';
