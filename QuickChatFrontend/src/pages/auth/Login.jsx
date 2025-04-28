@@ -328,8 +328,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 // ⚠️ Update the path to match where you place the logo file
-import usdLogo from "@/assets/usd_logo.svg";
-
+import usdLogo from '../../assets/usd_logo.png';
 /**
  * Login component
  * Displays the USD logo, a heading that reads "USD QUICK CHAT",
@@ -370,11 +369,7 @@ const Login = () => {
     <div className="w-full max-w-sm p-6 border rounded-2xl shadow-md mx-auto flex flex-col gap-6">
       {/* Logo & Title */}
       <div className="flex flex-col items-center gap-2">
-        <img
-          src={usdLogo}
-          alt="University of South Dakota logo"
-          className="h-16 w-auto"
-        />
+        <img src={usdLogo} alt="University of South Dakota logo" className="h-16 w-auto" />
         <h1 className="text-3xl font-bold tracking-tight">USD QUICK CHAT</h1>
         <p className="text-gray-600 text-center max-w-xs">
           Enter your email and password to access your account.
