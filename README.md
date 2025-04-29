@@ -85,17 +85,8 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
-## 📸 Screenshots (optional)
 
-Add screenshots of:
-
-- 🔐 Login/Register Page
-- 💬 Chat UI
-- 👥 Group Chat View
-
----
-
-## 🥪 API Endpoints (Sample)
+## 🥪 API Endpoints
 
 | Method | Endpoint              | Description             |
 |--------|-----------------------|-------------------------|
