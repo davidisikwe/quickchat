@@ -36,10 +36,10 @@
 ## 📁 Folder Structure
 
 ```
-quickchat/
-├── client/          # React frontend
+Quickchat/
+├── QuickchatFrontend/          # React frontend
 │   └── src/         # Frontend source code
-├── server/          # Express backend
+├── QuickchatBackend/          # Express backend
 │   ├── models/      # Mongoose models
 │   ├── routes/      # API routes
 │   ├── config/      # DB and JWT config
